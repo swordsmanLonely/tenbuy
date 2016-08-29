@@ -2,7 +2,6 @@ package com.example.administrator.tenbuy;
 
 
 import android.graphics.Color;
-import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
 import android.view.View;
 import android.widget.FrameLayout;
@@ -11,14 +10,13 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.administrator.tenbuy.base.BaseActivity;
-import com.example.administrator.tenbuy.main.DeserveFragment;
-import com.example.administrator.tenbuy.main.HomepageFragment;
-import com.example.administrator.tenbuy.main.MineFragment;
-import com.example.administrator.tenbuy.main.TenbuyFragment;
-import com.example.administrator.tenbuy.main.TmFragment;
+import com.example.administrator.tenbuy.main.deserve.DeserveFragment;
+import com.example.administrator.tenbuy.main.homepage.HomepageFragment;
+import com.example.administrator.tenbuy.main.mine.MineFragment;
+import com.example.administrator.tenbuy.main.tenbuy.TenbuyFragment;
+import com.example.administrator.tenbuy.main.tm.TmFragment;
 
 import butterknife.BindView;
-import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class MainActivity extends BaseActivity {

@@ -1,4 +1,4 @@
-package com.example.administrator.tenbuy.main;
+package com.example.administrator.tenbuy.main.tm;
 
 
 import android.os.Bundle;
@@ -13,8 +13,7 @@ import com.example.administrator.tenbuy.base.BaseFragment;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class TenbuyFragment extends BaseFragment {
-
+public class TmFragment extends BaseFragment {
 
 
     @Override
@@ -29,7 +28,7 @@ public class TenbuyFragment extends BaseFragment {
 
     @Override
     protected int getLayoutId() {
-        return R.layout.fragment_tenbuy;
+        return R.layout.fragment_tm;
     }
 
 }

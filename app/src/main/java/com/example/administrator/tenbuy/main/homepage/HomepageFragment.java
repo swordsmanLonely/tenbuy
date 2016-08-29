@@ -1,4 +1,4 @@
-package com.example.administrator.tenbuy.main;
+package com.example.administrator.tenbuy.main.homepage;
 
 
 import android.os.Bundle;
